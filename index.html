@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Page Title & SEO Metadata -->
+    <title>AKULA . Varun — Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio website for AKULA . Varun, B.Tech CSE student at Joy University and Aspiring Web Developer."
+    />
+    <meta property="og:title" content="AKULA . Varun — Portfolio" />
+    <meta
+      property="og:description"
+      content="Personal portfolio website for AKULA . Varun, B.Tech CSE student at Joy University and Aspiring Web Developer."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Plus Jakarta Sans (Headings) & DM Sans (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- External Stylesheet (HTML5 and CSS3 only, no JavaScript) -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- =====================================================
+         HEADER & NAVIGATION BAR
+         Three-zone layout: Brand | Section Links | Primary CTA
+         ===================================================== -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <!-- Zone 1: Brand Wordmark -->
+        <a href="#home" class="brand-logo">AKULA . Varun</a>
+
+        <!-- Zone 2: Primary Navigation Links -->
+        <nav class="main-nav" aria-label="Primary Navigation">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#education" class="nav-link">Education</a>
+        </nav>
+
+        <!-- Zone 3: Primary Action Button -->
+        <div class="header-action">
+          <a href="#contact" class="btn btn-primary btn-sm">Contact Me</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- =====================================================
+           1. HOME / HERO SECTION
+           ===================================================== -->
+      <section id="home" class="hero-section">
+        <div class="container">
+          <div class="hero-grid">
+            <!-- Hero Left Column: Identity, Heading, Intro & CTA -->
+            <div class="hero-content">
+              <p class="hero-kicker">B.Tech CSE · Joy University</p>
+              <h1 class="hero-title">AKULA . Varun</h1>
+              <h2 class="hero-heading">Aspiring Web Developer</h2>
+              <p class="hero-intro">
+                I am a Computer Science and Engineering undergraduate passionate about
+                crafting clean, structured, and responsive web interfaces using modern
+                HTML5 and CSS3. Focused on writing readable markup, building thoughtful
+                layouts, and growing into a dependable professional web developer.
+              </p>
+
+              <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Contact Me</a>
+                <a href="#projects" class="btn btn-secondary">View Projects</a>
+              </div>
+            </div>
+
+            <!-- Hero Right Column: Profile Photo Frame -->
+            <div class="hero-media">
+              <figure class="profile-frame">
+                <!-- Tip for VS Code: replace src with a local file like "./profile.jpg" if moving outside this workspace -->
+                <img
+                  src="/assets/aistudio/varun_9999999_bcc1242c.jpeg"
+                  alt="Portrait of AKULA . Varun"
+                  class="profile-photo"
+                  referrerpolicy="no-referrer"
+                />
+                <figcaption class="profile-caption">
+                  <span class="caption-name">AKULA . Varun</span>
+                  <span class="caption-meta">Joy University · CSE</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <!-- Full-Width Summary Strip Below Hero Split -->
+          <div class="hero-highlights" aria-label="Profile Summary">
+            <div class="highlight-item">
+              <span class="highlight-label">Degree</span>
+              <span class="highlight-value">B.Tech CSE</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-label">Institution</span>
+              <span class="highlight-value">Joy University</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-label">Core Focus</span>
+              <span class="highlight-value">HTML5 &amp; CSS3</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-label">Career Goal</span>
+              <span class="highlight-value">Web Developer</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================
+           2. ABOUT ME SECTION
+           ===================================================== -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="about-grid">
+            <div class="section-intro">
+              <p class="section-kicker">01. Introduction</p>
+              <h2 class="section-title">About Me</h2>
+              <p class="section-lead">
+                Building a strong foundation in frontend craft through clean markup
+                and disciplined styling.
+              </p>
+            </div>
+
+            <div class="about-body">
+              <p>
+                Hello! I am <strong>AKULA . Varun</strong>, a dedicated B.Tech Computer
+                Science &amp; Engineering student at <strong>Joy University</strong>. My
+                academic journey has introduced me to core computing principles while
+                sparking a strong interest in how websites are designed and structured on
+                the web.
+              </p>
+              <p>
+                I enjoy translating ideas into accessible, well-organized pages using
+                semantic HTML5 and responsive CSS3 layouts. Rather than relying on heavy
+                abstractions early on, I believe in mastering the fundamentals—clean
+                document hierarchy, Flexbox, CSS Grid, typography, and mobile-first
+                responsiveness.
+              </p>
+              <p>
+                My career goal is to become a <strong>professional web developer</strong>
+                who builds fast, reliable, and user-friendly digital experiences while
+                continuously expanding my engineering skill set.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================
+           3. SKILLS SECTION
+           ===================================================== -->
+      <section id="skills" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">02. Capabilities</p>
+            <h2 class="section-title">Technical Skills</h2>
+            <p class="section-subtitle">
+              Core web technologies and layout practices I focus on when building static
+              and responsive websites.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Skill Card 1 -->
+            <article class="card skill-card">
+              <div class="card-index">01</div>
+              <h3 class="card-title">HTML5</h3>
+              <p class="card-text">
+                Writing semantic, well-commented markup using landmarks, headings,
+                accessible links, figures, and structured forms.
+              </p>
+              <p class="card-meta">Semantic Markup · Accessibility</p>
+            </article>
+
+            <!-- Skill Card 2 -->
+            <article class="card skill-card">
+              <div class="card-index">02</div>
+              <h3 class="card-title">CSS3</h3>
+              <p class="card-text">
+                Crafting dark-navy gradients, CSS variables, Flexbox &amp; Grid systems,
+                and smooth hardware-friendly hover transitions.
+              </p>
+              <p class="card-meta">Flexbox · Grid · Transitions</p>
+            </article>
+
+            <!-- Skill Card 3 -->
+            <article class="card skill-card">
+              <div class="card-index">03</div>
+              <h3 class="card-title">Responsive Web Design</h3>
+              <p class="card-text">
+                Adapting page layouts fluidly across mobile phones, tablets, and desktop
+                monitors using media queries and relative units.
+              </p>
+              <p class="card-meta">Mobile-First · Fluid Grids</p>
+            </article>
+
+            <!-- Skill Card 4 -->
+            <article class="card skill-card">
+              <div class="card-index">04</div>
+              <h3 class="card-title">Basic Web Development</h3>
+              <p class="card-text">
+                Structuring clean multi-file web projects, maintaining readable code
+                standards, and publishing work via GitHub.
+              </p>
+              <p class="card-meta">Clean Structure · GitHub Workflow</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================
+           4. PROJECTS SECTION
+           ===================================================== -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">03. Selected Work</p>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">
+              Foundational web design and layout projects built strictly with HTML5 and
+              CSS3.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project 1: Personal Portfolio Website -->
+            <article class="card project-card">
+              <div class="project-preview preview-portfolio" aria-hidden="true">
+                <div class="mock-bar">
+                  <span class="mock-line-short"></span>
+                  <span class="mock-nav-group">
+                    <span></span><span></span><span></span>
+                  </span>
+                </div>
+                <div class="mock-hero">
+                  <div class="mock-text-col">
+                    <span class="mock-title-bar"></span>
+                    <span class="mock-sub-bar"></span>
+                    <span class="mock-btn-bar"></span>
+                  </div>
+                  <div class="mock-photo-box"></div>
+                </div>
+              </div>
+
+              <div class="project-body">
+                <p class="card-meta">HTML5 · CSS3 · Responsive Design</p>
+                <h3 class="card-title">Personal Portfolio Website</h3>
+                <p class="card-text">
+                  A responsive single-page portfolio built exclusively with HTML5 and
+                  CSS3, featuring a dark navy-blue theme, clean section navigation, and
+                  adaptive card grids.
+                </p>
+                <div class="project-footer">
+                  <a
+                    href="https://github.com/varunakula037-eng"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-link"
+                  >
+                    View on GitHub &rarr;
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2: Student Grade Calculator (HTML & CSS Design Only) -->
+            <article class="card project-card">
+              <div class="project-preview preview-calculator" aria-hidden="true">
+                <div class="mock-table">
+                  <div class="mock-row mock-row-head">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="mock-row">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="mock-row">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <div class="mock-summary-bar"></div>
+                </div>
+              </div>
+
+              <div class="project-body">
+                <p class="card-meta">HTML5 · CSS3 Design Only · UI Layout</p>
+                <h3 class="card-title">Student Grade Calculator</h3>
+                <p class="card-text">
+                  A structured HTML5 and CSS3 interface design for displaying academic
+                  subjects, credit inputs, and GPA summary cards with clear tabular
+                  hierarchy and zero JavaScript.
+                </p>
+                <div class="project-footer">
+                  <a
+                    href="https://github.com/varunakula037-eng"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-link"
+                  >
+                    View on GitHub &rarr;
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3: Responsive Landing Page -->
+            <article class="card project-card">
+              <div class="project-preview preview-landing" aria-hidden="true">
+                <div class="mock-banner">
+                  <span class="mock-title-bar centered"></span>
+                  <span class="mock-sub-bar centered"></span>
+                </div>
+                <div class="mock-three-cols">
+                  <span></span><span></span><span></span>
+                </div>
+              </div>
+
+              <div class="project-body">
+                <p class="card-meta">HTML5 · CSS3 · Flexbox &amp; Grid</p>
+                <h3 class="card-title">Responsive Landing Page</h3>
+                <p class="card-text">
+                  A modern multi-section promotional landing page designed with CSS Grid
+                  and Flexbox to deliver balanced spacing and crisp readability across
+                  desktop, tablet, and mobile viewports.
+                </p>
+                <div class="project-footer">
+                  <a
+                    href="https://github.com/varunakula037-eng"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-link"
+                  >
+                    View on GitHub &rarr;
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================================================
+           5. EDUCATION SECTION
+           ===================================================== -->
+      <section id="education" class="section section-alt">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-kicker">04. Academic Background</p>
+            <h2 class="section-title">Education</h2>
+          </div>
+
+          <article class="education-card">
+            <div class="education-main">
+              <p class="card-meta">Undergraduate Program</p>
+              <h3 class="education-degree">
+                B.Tech in Computer Science &amp; Engineering (CSE)
+              </h3>
+              <p class="education-school">Joy University</p>
+              <p class="education-desc">
+                Pursuing my Bachelor of Technology in Computer Science and Engineering,
+                developing core problem-solving skills alongside hands-on practice in
+                HTML5, CSS3, and responsive web design.
+              </p>
+            </div>
+            <div class="education-aside">
+              <div class="edu-detail">
+                <span class="edu-label">Focus</span>
+                <span class="edu-value">Web Development</span>
+              </div>
+              <div class="edu-detail">
+                <span class="edu-label">Foundations</span>
+                <span class="edu-value">HTML5 · CSS3</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- =====================================================
+           6. CONTACT SECTION
+           ===================================================== -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="contact-layout">
+            <div class="contact-intro">
+              <p class="section-kicker">05. Get in Touch</p>
+              <h2 class="section-title">Contact</h2>
+              <p class="section-subtitle">
+                I am open to learning opportunities, student collaborations, and
+                beginner web development projects. Feel free to reach out directly via
+                email or explore my repositories on GitHub.
+              </p>
+
+              <div class="contact-actions">
+                <a href="mailto:varunakula037@gmail.com" class="btn btn-primary">
+                  Send an Email
+                </a>
+                <a
+                  href="https://github.com/varunakula037-eng"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-secondary"
+                >
+                  Visit GitHub Profile
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <h3 class="contact-card-heading">Contact Information</h3>
+
+              <dl class="contact-list">
+                <div class="contact-row">
+                  <dt>Full Name</dt>
+                  <dd>AKULA . Varun</dd>
+                </div>
+                <div class="contact-row">
+                  <dt>Education</dt>
+                  <dd>B.Tech CSE – Joy University</dd>
+                </div>
+                <div class="contact-row">
+                  <dt>Email</dt>
+                  <dd>
+                    <a href="mailto:varunakula037@gmail.com" class="contact-link">
+                      varunakula037@gmail.com
+                    </a>
+                  </dd>
+                </div>
+                <div class="contact-row">
+                  <dt>GitHub</dt>
+                  <dd>
+                    <a
+                      href="https://github.com/varunakula037-eng"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="contact-link"
+                    >
+                      github.com/varunakula037-eng
+                    </a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =====================================================
+         FOOTER
+         ===================================================== -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <p class="footer-name">AKULA . Varun</p>
+          <p class="footer-note">
+            Aspiring Web Developer · B.Tech CSE, Joy University
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-label="Footer Navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <p class="footer-copy">
+          &copy; 2026 AKULA . Varun. Built with HTML5 &amp; CSS3.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
